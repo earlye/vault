@@ -6,7 +6,8 @@ vault:
     - .:/usr/src/app
     - ~/.ssh:/vault/.ssh
   ports:
-    - 172.17.42.1:14242:3000
+    - 172.17.0.1:14242:3000
+
 
 # vault to be used as a linked container in runtime
 runtime-vault:
